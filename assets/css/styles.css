@@ -40,6 +40,10 @@ a {
   color: #ffffff;
 }
 
+.btn:hover {
+  opacity: 0.85;
+}
+
 /* Header */
 .header {
   background-color: #fffcf4;
@@ -53,7 +57,7 @@ a {
 .fixed {
   position: -webkit-sticky;
   position: sticky;
-  top: 44px;
+  top: 0px;
 }
 .header .nav {
   margin-left: auto;
@@ -93,4 +97,65 @@ a {
 
 .sign-up-btn {
   line-height: 40px;
+}
+
+/* Hero */
+.hero .body {
+  display: flex;
+  margin-top: 65px;
+}
+
+.hero .media-block {
+  width: 48%;
+  position: relative;
+}
+
+.hero .img img {
+  height: 685px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.hero .courses {
+  position: absolute;
+  bottom: 48px;
+  left: 300px;
+  width: 270px;
+  border-radius: 12px 0px 0px 12px;
+  padding: 24px;
+  background: #ffffff;
+}
+
+.hero .item {
+  display: flex;
+  margin-bottom: 14px;
+  justify-items: center;
+  align-items: center;
+}
+
+.hero .item .icon {
+  width: 48px;
+  height: 48px;
+}
+
+.item .main-course {
+  margin-left: 16px;
+}
+
+.hero p {
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.86;
+  color: #5f5b53;
+}
+.item .main-course .name-course {
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.67;
+  color: #171100;
+}
+.hero .content-block {
+  width: 48%;
 }
