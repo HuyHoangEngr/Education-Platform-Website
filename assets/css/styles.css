@@ -50,6 +50,7 @@ a {
 .header .body {
   display: flex;
   padding-top: 44px;
+  padding-bottom: 8px;
   align-items: center;
 }
 
@@ -106,6 +107,7 @@ a {
 .hero .body {
   display: flex;
   padding-top: 65px;
+  padding-bottom: 65px;
 }
 
 .hero .media-block {
@@ -250,4 +252,61 @@ a {
 
 .stats-summary strong {
   margin-left: 28px;
+}
+
+/* Popular */
+.popular .main-content {
+  max-width: calc(100% - 270px);
+  margin-top: 200px;
+}
+
+.top-popular {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-popular .heading {
+  font-family: Sen;
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #171100;
+}
+
+.top-popular span {
+  display: block;
+  width: 458px;
+  margin-top: 16px;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.67;
+  text-align: left;
+  color: #5f5b53;
+}
+
+.top-popular .control-btn {
+  display: flex;
+}
+
+.top-popular .chevron-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-left: 18px;
+  border: 1px solid var(--primary-color);
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.top-popular .chevron-btn:hover {
+  background: var(--primary-color);
+  color: white;
 }
