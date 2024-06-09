@@ -433,3 +433,78 @@ a {
   color: #ffffff;
   border-color: transparent;
 }
+
+/* Feedback */
+.feedback {
+  margin-top: 200px;
+  background-color: #2e2100;
+}
+.feedback .feedback-list {
+  display: flex;
+  /* Làm ẩn đi các item khi vượt quá khung */
+  overflow: hidden;
+}
+.feedback .feedback-item {
+  display: flex;
+  /* Cho phép 1 slide hiển thị hết main-content,
+  các slide khác dạt hết sang phải */
+  width: 100%;
+  flex-shrink: 0;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.feedback .avatar {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.feedback .student-name {
+  margin-top: 18px;
+  font-family: Sen;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #bfbcb2;
+}
+
+.feedback .major {
+  margin-top: 4px;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.86;
+  color: #bfbcb2;
+}
+
+.feedback .three-dots {
+  display: flex;
+  margin-top: 28px;
+}
+
+.feedback .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-right: 6px;
+  background-color: #634700;
+}
+
+.feedback .dot.active {
+  background-color: #ffb900;
+}
+
+.feedback .content {
+  padding-left: 241px;
+}
+
+.feedback blockquote {
+  max-width: 770px;
+  padding-left: 30px;
+  font-size: 2.6rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.54;
+  text-align: left;
+  color: #ffffff;
+}
