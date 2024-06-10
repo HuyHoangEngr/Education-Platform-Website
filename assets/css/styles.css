@@ -595,3 +595,139 @@ a {
 .feature-below .content {
   padding: 71px 67px 71px 0;
 }
+
+/* Our-Blog */
+.our-blog {
+  padding: 96px 0px;
+  background-color: #fffcf4;
+}
+
+.our-blog .top-part .heading {
+  font-family: Sen;
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.27;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #130606;
+}
+
+.our-blog .top-part .desc {
+  width: 448px;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75;
+  text-align: center;
+  color: #696262;
+}
+
+.our-blog .blog-list {
+  margin-top: 55px;
+  display: flex;
+  gap: 30px;
+  overflow: hidden;
+}
+
+.our-blog .blog-list .blog-item {
+  width: calc(33.33% - 20px);
+  flex-shrink: 0;
+  background-color: #fff;
+}
+
+.our-blog .blog-list .blog-item:hover {
+  box-shadow: 0px 16px 32px 0px #0000000d;
+}
+
+.our-blog .blog-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  width: 370px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.our-blog .blog-item .info {
+  padding: 20px 20px 28px 20px;
+}
+
+.our-blog .blog-item .date {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.86;
+  text-align: left;
+  color: #5f5b53;
+}
+
+.our-blog .info .date::before {
+  /* Phai co content=""; thi moi xuat hien trong code */
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-right: 8px;
+  background-color: var(--primary-color);
+}
+
+.our-blog .info .date::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  height: 1px;
+  background: #e2dfda;
+  border-radius: 50%;
+  bottom: -12px;
+  left: 0;
+  right: -27px;
+}
+
+.our-blog .info .heading {
+  margin-top: 24px;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.75;
+  color: #171100;
+}
+
+.our-blog .info .btn {
+  margin-top: 12px;
+  width: 118px;
+  height: 50px;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.15;
+  text-align: center;
+}
+
+.our-blog .info .btn:hover {
+  border-color: transparent;
+  background: var(--primary-color);
+}
+
+.our-blog .three-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 38px;
+  gap: 6px;
+}
+
+.our-blog .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #5f5b53;
+}
+
+.our-blog .dot.active {
+  background: var(--primary-color);
+}
