@@ -731,3 +731,95 @@ a {
 .our-blog .dot.active {
   background: var(--primary-color);
 }
+
+/* Footer */
+.footer {
+  background-color: #2e2100;
+}
+
+.footer .body {
+  padding: 96px 0 28px 0;
+}
+
+.footer .row {
+  display: flex;
+  gap: 130px;
+  padding-bottom: 38px;
+  border-bottom: 1px solid #59554b;
+}
+
+.footer .row ul {
+  width: 14%;
+}
+
+.footer .row ul:last-child {
+  width: 16%;
+}
+
+.footer .row .left-side {
+  width: 23%;
+}
+
+.footer .left-side p.desc {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.86;
+  color: #bfbcb2;
+}
+
+.footer .left-side .social {
+  display: flex;
+  gap: 18px;
+}
+
+.footer .row ul li:first-child a {
+  display: block;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #59554b;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.68;
+  color: #ffffff;
+}
+
+.footer .row ul li:nth-of-type(2) a {
+  display: block;
+  padding-top: 28px;
+}
+
+.footer .row ul li a {
+  display: block;
+  padding-bottom: 12px;
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.86;
+  color: #bfbcb2;
+}
+
+.footer ul li strong {
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.86;
+  color: #ffffff;
+}
+
+.footer .copyright {
+  margin: 28px 0 28px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer .copyright p {
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.86;
+  text-align: center;
+  color: #807d74;
+}
